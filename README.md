@@ -1,1 +1,1 @@
-# IU5_BKIT2022
+# Basic components of Internet technologies
