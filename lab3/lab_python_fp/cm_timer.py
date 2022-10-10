@@ -3,30 +3,24 @@ from contextlib import contextmanager
 
 
 class cm_timer_1:
-    def __int__(self):
-        self.__start = 0
-        self.__finish = 0
-
     def __enter__(self):
-        self.__start = time()
+        self.__time_begin = time()
         # return self.__start
 
-    def __exit__(self, exp_type, exp_value, traceback):
-        self.__finish = time()
-        print(f'Time of work: {self.__finish - self.__start}')
+    def __exit__(self, type, value, traceback):
+        print(f'Time of work: {time()- self.__time_begin}')
 
 
 @contextmanager
 def cm_timer_2():
-    st = time()
-    yield None
-    en = time()
-    print(f'Time of work: {en - st}')
+    time_begin = time()
+    yield 
+    print(f'Time of work: {time() - time_begin}')
 
 
 def main():
     with cm_timer_1():
-        sleep(2.0)
+       sleep(2.0)
 
     with cm_timer_2():
         sleep(2.0)
