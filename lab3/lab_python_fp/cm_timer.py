@@ -25,16 +25,11 @@ def cm_timer_2():
 
 
 def main():
-    '''
-        Необходимо написать контекстные менеджеры cm_timer_1 и 
-    cm_timer_2,которые считают время работы блока кода и выводят 
-    его на экран.
-    '''
     with cm_timer_1():
-        sleep(2.5)
+        sleep(2.0)
 
     with cm_timer_2():
-        sleep(2.5)
+        sleep(2.0)
 
 if __name__ == '__main__':
     main()
