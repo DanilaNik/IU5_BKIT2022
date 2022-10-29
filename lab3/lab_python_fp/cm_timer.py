@@ -5,7 +5,6 @@ from contextlib import contextmanager
 class cm_timer_1:
     def __enter__(self):
         self.__time_begin = time()
-        # return self.__start
 
     def __exit__(self, type, value, traceback):
         print(f'Time of work: {time()- self.__time_begin}')
