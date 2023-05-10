@@ -1,5 +1,7 @@
 # Базовые компоненты интернет-технологий
 
+[Репозиторий курса](https://github.com/ugapanyuk/BKIT_2022)
+
 ## Лабораторные работы:
 1. [Основные конструкции языка Python](https://github.com/DanilaNik/IU5_BKIT2022/tree/main/lab1) [(Условие)](https://github.com/ugapanyuk/BKIT_2022/wiki/lab_python_intro)
 2. [Объектно-ориентированные возможности языка Python](https://github.com/DanilaNik/IU5_BKIT2022/tree/main/lab2) [(Условие)](https://github.com/ugapanyuk/BKIT_2022/wiki/lab_python_oop)
